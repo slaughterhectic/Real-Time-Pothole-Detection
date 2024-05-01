@@ -7,10 +7,10 @@ from confluent_kafka import Producer
 from twilio.rest import Client  # Twilio for sending SMS
 
 # Twilio credentials
-TWILIO_ACCOUNT_SID = 'AC08d4ec3a3f72891fe812f161eb6f83f4'
-TWILIO_AUTH_TOKEN = '2997af45e81c5a710c11c5ed2e992a9e'
-TWILIO_PHONE_NUMBER = '+12566078512'
-RECIPIENT_PHONE_NUMBER = '+917908631466'  # Your recipient phone number
+TWILIO_ACCOUNT_SID = '#############'
+TWILIO_AUTH_TOKEN = '########'
+TWILIO_PHONE_NUMBER = '#######'
+RECIPIENT_PHONE_NUMBER = '############'  # Your recipient phone number
 
 # Function to get location based on IP address
 def get_location():
